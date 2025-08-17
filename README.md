@@ -1,12 +1,42 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📌 Project Description – Sagetiong VideoConference
 
-Currently, two official plugins are available:
+Sagetiong VideoConference is a modern real-time communication platform built with React.js, CSS, ZEGOCLOUD SDK, and React Router.
+It enables seamless voice, video, screen sharing, group chatting, and group calling experiences.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🛠️ Technologies Used
 
-## Expanding the ESLint configuration
+React.js – Frontend framework for interactive UI
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+CSS – Styling and responsive layouts
+
+ZEGOCLOUD – Real-time communication (RTC) & media streaming SDK
+
+React Router – Client-side routing and navigation
+
+✨ Features
+
+🔑 User Authentication by ID – Enter your ID and join a video conference room.
+
+🎥 Real-Time Video & Voice – High-quality peer-to-peer/video conferencing.
+
+🖥️ Screen Sharing – Share entire screen or specific application window.
+
+💬 Group Chatting – In-room text chat with participants.
+
+📞 Group Calling – Connect multiple participants in a single call.
+
+🚀 Low Latency & High Performance – Powered by ZEGOCLOUD’s RTC infrastructure.
+
+🎯 Use Case
+
+This project can be used to build interactive real-time apps such as:
+
+Online meetings & virtual classrooms
+
+Remote team collaboration
+
+Social and community group calls
+
+Customer support video chat
