@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.join-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    perspective: 1200px;
+}
+
+.join-card {
+    background: #ffffff;
+    padding: 50px 40px;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+    text-align: center;
+    transform: rotateY(10deg) rotateX(5deg);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.join-card:hover {
+    transform: rotateY(0deg) rotateX(0deg);
+    box-shadow: 0 25px 60px rgba(0,0,0,0.6);
+}
+
+.join-card h1 {
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.join-card input {
+    width: 300px;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: inset 0 5px 10px rgba(0,0,0,0.1);
+    font-size: 16px;
+}
+
+.join-card button {
+    width: 200px;
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background: linear-gradient(45deg, #667eea, #764ba2);
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.join-card button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
